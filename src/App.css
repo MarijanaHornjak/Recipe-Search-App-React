@@ -21,6 +21,11 @@ html {
   align-items: center;
 }
 .search-bar {
+  background-image: url("./assets/chicken-leg.png");
+  background-position-x: 98%;
+  background-position-y: 55%;
+  background-size: 3.2rem;
+  background-repeat: no-repeat;
   width: 40%;
   border: none;
   padding: 1.2rem 1rem;
@@ -32,7 +37,8 @@ html {
 .search-bar:active {
   outline: none;
 }
-.search-button {
+/* .search-button {
+ 
   padding: 1rem 2rem;
   border-radius: 16px;
   border: none;
@@ -42,7 +48,7 @@ html {
   font-weight: 500;
   position: relative;
   right: -20%;
-}
+} */
 .recipes {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -118,6 +124,9 @@ html {
   }
   .recipe {
     padding: 2.4rem;
+  }
+  .search-bar {
+    width: 50%;
   }
 }
 /* 464px */

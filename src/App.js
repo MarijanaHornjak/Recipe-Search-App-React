@@ -43,9 +43,9 @@ function App() {
           onChange={updateSearch}
           placeholder="Search for recipes..."
         />
-        <button type="submit" className="search-button">
+        {/* <button type="submit" className="search-button">
           Search
-        </button>
+        </button> */}
       </form>
 
       <div className="recipes">
